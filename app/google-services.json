@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "214726282907",
+    "project_id": "whatsapp-type-decec",
+    "storage_bucket": "whatsapp-type-decec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214726282907:android:6954b379518baa7ed5003e",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214726282907-7hankimj3noccrqqhuqadojp4q5rmb5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdmC4ehnKgLNimNq86kFQbtv3zCRNHVQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214726282907-7hankimj3noccrqqhuqadojp4q5rmb5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
