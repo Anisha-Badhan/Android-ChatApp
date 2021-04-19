@@ -4,14 +4,7 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('C:\\Users\\user\\AndroidStudioProjects\\chatApp\\settings.gradle')
-            storePassword 'C:\\Users\\user\\Keystores\\Upload_keystore.jks'
-            keyAlias 'upload'
-            keyPassword 'Saesha2020'
-        }
-    }
+
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
@@ -50,7 +43,7 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-auth'
     implementation platform('com.google.firebase:firebase-bom:26.8.0')
-    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.google.firebase:firebase-database'
     
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'

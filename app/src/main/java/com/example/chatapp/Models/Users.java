@@ -12,6 +12,14 @@ public class Users {
         this.lastMessage = lastMessage;
     }
 
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
     public Users(){}
 
     //Register Constructor
@@ -53,13 +61,7 @@ public class Users {
         this.password = password;
     }
 
-    public String getUserId(String key) {
-        return userId;
-    }
 
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
 
     public String getLastMessage() {
         return lastMessage;

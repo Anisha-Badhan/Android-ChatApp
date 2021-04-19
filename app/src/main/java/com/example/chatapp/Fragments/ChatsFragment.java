@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,19 +44,22 @@ public class ChatsFragment extends Fragment {
         UsersAdapter adapter = new UsersAdapter(list, getContext());
         binding.rvChats.setAdapter(adapter);
 
+        database = FirebaseDatabase.getInstance();
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         binding.rvChats.setLayoutManager(layoutManager);
 
         database.getReference().child("Users").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                list.clear();
                 for(DataSnapshot dataSnapshot: snapshot.getChildren()){
                     Users users = dataSnapshot.getValue(Users.class);
-                    users.getUserId(dataSnapshot.getKey());
+                    users.setUserId(dataSnapshot.getKey());
                     list.add(users);
 
                 }
                 adapter.notifyDataSetChanged();
+                Log.d("HELLO---", list.toString());
             }
 
             @Override

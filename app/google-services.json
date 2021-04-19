@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "214726282907",
-    "project_id": "whatsapp-type-decec",
-    "storage_bucket": "whatsapp-type-decec.appspot.com"
+    "project_number": "764577780403",
+    "firebase_url": "https://anisha-chatapp-a4a22-default-rtdb.firebaseio.com",
+    "project_id": "anisha-chatapp-a4a22",
+    "storage_bucket": "anisha-chatapp-a4a22.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:214726282907:android:6954b379518baa7ed5003e",
+        "mobilesdk_app_id": "1:764577780403:android:a64113ddd9cda4b99d16c6",
         "android_client_info": {
           "package_name": "com.example.chatapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "214726282907-7hankimj3noccrqqhuqadojp4q5rmb5u.apps.googleusercontent.com",
+          "client_id": "764577780403-3q8rni9avhpsn4juk5emqa730a45jukv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatapp",
+            "certificate_hash": "54884df02db0ca4ae97c5d5c0c8223850e1cd7b8"
+          }
+        },
+        {
+          "client_id": "764577780403-3shqv45533t30cl35n8j126k4beuqh05.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCdmC4ehnKgLNimNq86kFQbtv3zCRNHVQg"
+          "current_key": "AIzaSyCW_9vdE-wEVYi-cHEhC7IiKexd4S6XYy0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "214726282907-7hankimj3noccrqqhuqadojp4q5rmb5u.apps.googleusercontent.com",
+              "client_id": "764577780403-3shqv45533t30cl35n8j126k4beuqh05.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
